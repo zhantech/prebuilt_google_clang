@@ -5,10 +5,10 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname='libbfd-2.35.so'
+dlname='libbfd-2.35.1.so'
 
 # Names of this library.
-library_names='libbfd-2.35.so libbfd-2.35.so libbfd.so'
+library_names='libbfd-2.35.1.so libbfd-2.35.1.so libbfd.so'
 
 # The name of the static archive.
 old_library='libbfd.a'
@@ -17,7 +17,7 @@ old_library='libbfd.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/khusika/Documents/ANDROID/tc-build/build/binutils/x86_64-linux-gnu/bfd/../libiberty/pic -liberty -lz -ldl'
+dependency_libs=' -L/home/khusika/Documents/android/toolchain/clang/tc-build/build/binutils/x86_64-linux-gnu/bfd/../libiberty/pic -liberty -lz -ldl'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/khusika/Documents/ANDROID/CLANG/gk/lib'
+libdir='/home/khusika/Documents/android/toolchain/clang/khusika/lib'

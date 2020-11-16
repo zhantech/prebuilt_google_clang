@@ -7,7 +7,7 @@ OUTPUT_FORMAT("elf64-l1om", "elf64-l1om",
 	      "elf64-l1om")
 OUTPUT_ARCH(l1om)
 ENTRY(_start)
-SEARCH_DIR("/home/khusika/Documents/ANDROID/CLANG/gk/x86_64-pc-linux-gnu/lib"); SEARCH_DIR("/home/khusika/Documents/ANDROID/CLANG/gk/lib"); SEARCH_DIR("/usr/local/lib"); SEARCH_DIR("/lib"); SEARCH_DIR("/usr/lib");
+SEARCH_DIR("/home/khusika/Documents/android/toolchain/clang/khusika/x86_64-pc-linux-gnu/lib"); SEARCH_DIR("/home/khusika/Documents/android/toolchain/clang/khusika/lib"); SEARCH_DIR("/usr/local/lib"); SEARCH_DIR("/lib"); SEARCH_DIR("/usr/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */
