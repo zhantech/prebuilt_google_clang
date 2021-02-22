@@ -17,7 +17,7 @@ old_library='libctf.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/khusika/Documents/android/toolchain/clang/tc-build/build/binutils/x86_64-linux-gnu/libctf/../libiberty/pic -liberty -lz -ldl'
+dependency_libs=' '/home/khusika/Documents/android/toolchain/clang/khusika/lib'/libbfd.la -L/home/khusika/Documents/android/toolchain/clang/tc-build/build/binutils/x86_64-linux-gnu/bfd/../libiberty/pic -L/home/khusika/Documents/android/toolchain/clang/tc-build/build/binutils/x86_64-linux-gnu/libctf/../libiberty/pic -liberty -lz -ldl'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
